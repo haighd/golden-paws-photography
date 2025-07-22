@@ -1,5 +1,5 @@
 ---
-title: About Remie
+title: About me
 ---
 
 ### About me

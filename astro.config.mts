@@ -3,8 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://github.com/haighd',
-	base: '',
+	site: 'https://goldenpawsphotography.com',
 	vite: {
 		plugins: [tailwindcss()],
 	},
