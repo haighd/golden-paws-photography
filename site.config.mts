@@ -1,5 +1,5 @@
 import type { AstroInstance } from 'astro';
-import { Github, Instagram } from 'lucide-astro';
+import {Instagram, Mail } from 'lucide-astro';
 
 export interface SocialLink {
 	name: string;
@@ -8,20 +8,23 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	// title: 'GPP',
+	logo: 'logo.jpeg',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
-	profileImage: 'profile.webp',
+	owner: 'Golden Paws',
+	profileImage1: 'remie.jpg',
+	profileImage2: 'lesley-1.jpg',
+	profileImage3: 'lesley-2.jpg',
 	socialLinks: [
 		{
-			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
-			icon: Github,
-		} as SocialLink,
+			name: 'Email',
+			url: 'mailto:info@goldenpawsphotography.com',
+			icon: Mail,
+		} as unknown as SocialLink,
 		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com',
+			url: 'https://www.instagram.com/golden_paws_photography/',
 			icon: Instagram,
-		} as SocialLink,
+		} as unknown as SocialLink,
 	],
 };

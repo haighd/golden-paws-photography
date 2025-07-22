@@ -1,90 +1,263 @@
 collections:
+  - id: dogs
+    name: Dogs
   - id: nature
     name: Nature
-  - id: travel
-    name: Travel
-  - id: street
-    name: Street
+  - id: wildlife
+    name: Wildlife
+  - id: birds
+    name: Birds
+  - id: insects
+    name: Insects
 images:
-  - path: nature/nature-2.jpg
+  - path: nature/nature-1.jpeg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
+      title: Flower
+      description: A macro image of a flower.
       collections:
         - nature
     exif: {}
-  - path: nature/nature-3.jpg
+  - path: nature/nature-2.jpeg
     meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
+      title: Wild strawberry
+      description: A macro image of a wild strawberry fruit.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-3.jpeg
+    meta:
+      title: Fall Pumpkin Fence
+      description: A white split-rail fence, with pumpkins on each vertical post, in front of autumn scenery.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-4.jpeg
+    meta:
+      title: Weathered Fence in Autumn
+      description: A white, painted, split-rail fence, with a weathered look, against an autumn scenery.
       collections:
         - featured
         - nature
     exif: {}
-  - path: nature/nature-5.jpg
+  - path: nature/nature-5.jpeg
     meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
+      title: Historic Grist Mill 1
+      description: A historic, brick-sided, grist mill building
       collections:
         - nature
-    exif: {}
-  - path: nature/nature-7.jpg
-    meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
-      collections:
         - featured
-        - nature
     exif: {}
-  - path: nature/nature-8.jpg
+  - path: nature/nature-6.jpeg
     meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
+      title: Historic Grist Mill 2
+      description: A historic, brick-sided, grist mill building
       collections:
         - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
         - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
+    exif: {}
+  - path: nature/nature-7.jpeg
     meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
+      title: Vintage Door Lock and Handle
+      description: A weathered, white, painted wood door, with a focus on its vintage hardware.
       collections:
         - nature
     exif: {}
-  - path: street/stree-1.jpg
+  - path: nature/nature-8.jpeg
     meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
+      title: Wild mushrooms
+      description: A macro image of white, wild mushrooms.
       collections:
+        - nature
+    exif: {}
+  - path: dogs/dogs-1.jpeg
+    meta:
+      title: Dog Birthday 1
+      description: A dark brown dog, wearing a birthday hat, sitting in front of a white bench and a birthday-themed backdrop.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-2.jpeg
+    meta:
+      title: Dog Birthday 2
+      description: A dark brown dog, wearing a birthday hat, sitting in front of a white bench and a birthday-themed backdrop.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-3.jpeg
+    meta:
+      title: Dog Birthday 3
+      description: A woman, sitting on a white bench, holding a small, light brown colored dog, in front of a birthday-themed backdrop.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-4.jpeg
+    meta:
+      title: Dog Birthday 4
+      description: A brown and white dog, wearing a birthday hat, sitting in front of a white bench and a birthday-themed backdrop.
+      collections:
+        - dogs
         - featured
-        - street
     exif: {}
-  - path: travel/travel-1.jpg
+  - path: dogs/dogs-5.jpeg
     meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
+      title: Dog Birthday 5
+      description: A woman, sitting on a white bench, holding a small, white dog, in front of a birthday-themed backdrop.
       collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-6.jpeg
+    meta:
+      title: Dog with ball in leaves
+      description: A white, light-brown, and dark-brown colored dog, laying in a pile of fallen autumn leaves, with a light green ball in its mouth.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-7.jpeg
+    meta:
+      title: Dog and man sitting at a bench
+      description: A man, ssitting on a bench, next to a white, light-brown, and dark-brown colored dog, sitting on the ground.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-8.jpeg
+    meta:
+      title: Dog in grass with toy
+      description: A black dog, laying on green grass, with a toy on its paw.
+      collections:
+        - dogs
+    exif: {}
+  - path: dogs/dogs-9.jpeg
+    meta:
+      title: Dog in leaves
+      description: A white, light-brown, and dark-brown colored dog, laying in a pile of fallen autumn leaves, with its tongue hanging from its mouth.
+      collections:
+        - dogs
         - featured
-        - travel
     exif: {}
-  - path: nature/nature-1.jpg
+  - path: wildlife/wildlife-1.jpeg
     meta:
-      title: Nature 1
-      description: ''
+      title: Bird with worm on birdhouse
+      description: A small, white and black bird, perched on top of a birdhouse, with a small green worm in it's beak.
       collections:
-        - nature
+        - wildlife
+        - featured
+        - birds
+    exif: {}
+  - path: wildlife/wildlife-2.jpeg
+    meta:
+      title: Bird with worm on bird bath
+      description: A small, white and black bird, perched on the edge of a bird bath, with a small green worm in it's beak.
+      collections:
+        - wildlife
+        - birds
+    exif: {}
+  - path: wildlife/wildlife-3.jpeg
+    meta:
+      title: Bee on a yellow flower 1
+      description: A macro image of a small bee, landed on a yellow flower
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-16.jpeg
+    meta:
+      title: Bee on a yellow flower 2
+      description: A macro image of a small bee, landed on a yellow flower
+      collections:
+        - wildlife
+        - featured
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-4.jpeg
+    meta:
+      title: Bee on a white flower 1
+      description: A macro image of a large bee, landed on a white flower.
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-5.jpeg
+    meta:
+      title: Bee on a white flower 2
+      description: A macro image of a large bee, landed on a white flower.
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-6.jpeg
+    meta:
+      title: Bee on a white flower 3
+      description: A macro image of a large bee, landed on a white flower.
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-7.jpeg
+    meta:
+      title: Bee on a white flower 4
+      description: A macro image of a large bee, landed on a white flower.
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-8.jpeg
+    meta:
+      title: Dragonfly on a birdhouse 1
+      description: A dragonfly landed on a birdhouse
+      collections:
+        - wildlife
+        - featured
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-9.jpeg
+    meta:
+      title: Dragonfly on a birdhouse 2
+      description: A dragonfly landed on a birdhouse
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-10.jpeg
+    meta:
+      title: Dragonfly on a birdhouse 3
+      description: A dragonfly landed on a birdhouse
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-11.jpeg
+    meta:
+      title: Dragonfly on a birdhouse 4
+      description: A dragonfly landed on a birdhouse
+      collections:
+        - wildlife
+        - insects
+    exif: {}
+  - path: wildlife/wildlife-12.jpeg
+    meta:
+      title: Frog in grass 1
+      description: A macro image of a small, tree frog, sitting among green grass blades
+      collections:
+        - wildlife
+    exif: {}
+  - path: wildlife/wildlife-17.jpeg
+    meta:
+      title: Frog in grass 2
+      description: A macro image of a small, tree frog, sitting among green grass blades
+      collections:
+        - wildlife
+    exif: {}
+  - path: wildlife/wildlife-18.jpeg
+    meta:
+      title: Frog in grass 3
+      description: A macro image of a small, tree frog, sitting among green grass blades
+      collections:
+        - wildlife
+    exif: {}
+  - path: wildlife/wildlife-19.jpeg
+    meta:
+      title: Frog in grass 4
+      description: A macro image of a small, tree frog, sitting among green grass blades
+      collections:
+        - wildlife
     exif: {}
